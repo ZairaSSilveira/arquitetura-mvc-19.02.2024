@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora MVC</h1>
+    <form action="/calcular" method="post">
+        <input type="text" name="a" placeholder="Número a" required>
+        <select name="operacao">
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select>
+        <input type="text" name="b" placeholder="Número b" required>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
